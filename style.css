@@ -8,13 +8,31 @@ html, body, #app {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap-reverse;
 }
 
 .box {
   width: 150px;
   height: 60px;
-  background: #f00;
   margin: 5px;
   flex-grow: 0;
+}
+
+.red {
+  background : #f00;
+  order: 1;
+}
+
+.green {
+  background: #0f0;
+  order: 2;
+}
+
+.blue {
+  background: #00f;
+  order: 3;
+}
+
+.yellow {
+  background: rgb(255, 238, 0);
+  order: 0;
 }
