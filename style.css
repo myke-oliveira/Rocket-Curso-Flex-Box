@@ -8,12 +8,13 @@ html, body, #app {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .box {
-  width: 300px;
+  width: 150px;
   height: 60px;
   background: #f00;
   margin: 5px;
-  flex-grow: 1;
+  flex-grow: 0;
 }
